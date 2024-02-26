@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+p{
+    margin: 0;
+}
+.wrap{
+    width: 500px;
+}
+.scoreBoard{
+    padding: 3px;
+    background-color: #2e9b2e;
+}
+.scoreBoardIn{
+    border: 3px solid #fff;
+    padding: 20px 30px;
+}
+.shotLeftWrap{
+    margin-bottom: 15px;
+    text-align: center;
+    list-style: 40px;
+    font-size: 24px;
+    color: #fff;
+}
+.shotLeftWrap .shotLeft{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 6px 3px 6px;
+    background-color: #222;
+}
+.scoreWrap{
+    display: flex;
+    justify-content: space-between;
+}
+.scoreBox{
+    width: 200px;
+    border: 1px solid #fff;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.scoreBox .scoreTxt{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+.scoreBox .scoreNum{
+    width: 100px;
+    margin: 0 auto;
+    background-color: #222;
+    line-height: 50px;
+    color: #fff700;
+    font-size: 28px;
+    font-weight: bold;
+}
+.msg{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.controlPanel{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #555;
+    color: #fff;
+}
+.controlBox{
+    margin: 0 20px;
+    text-align: center;
+}
+.controlTxt{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.controlBtn button{
+    width: 100px;
+    height: 40px;
+}
